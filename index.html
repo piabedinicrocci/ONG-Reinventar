@@ -34,7 +34,8 @@
     <meta property="og:image" content="IMAGE_TO_USE" />
     <meta property="og:description" content="DESCRIPTION">
     <meta property="og:site_name" content="SITE_NAME" />
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <!-- cross browser support -->
     
 	<!--[if lt IE 9]>
@@ -52,7 +53,7 @@
     <!-- a collection of javascript libraries and frameworks -->
     
     <!-- jquery https://jquery.com/  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -115,10 +116,10 @@
     <!-- schema.org https://schema.org/ -->
     
     <!-- page owner -->	
-    <section itemprop="reviewedBy" itemscope itemtype="https://schema.org/Organization">
+    <!-- <section itemprop="reviewedBy" itemscope itemtype="https://schema.org/Organization"> -->
 	
 	<!-- Organization/Person name and logo -->	
-        <div>
+        <!-- <div>
             <div itemprop="brand" itemscope itemtype="https://schema.org/Organization">
                 <p itemprop="legalName">NAME</p>
                 <figure itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
@@ -127,23 +128,46 @@
                 </figure>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- navigation -->
-    <section>
-         <nav itemprop="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <section class="navbar">
+        <div class="logo_left">
+            <img src="img/Logo.png" alt="logo" id="img_logo"/>
+        </div>
+        <nav itemprop="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList" class="items_right">
              <ul>
-                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
-                     <a href="#" itemprop="item">
-                         <span itemprop="name">ITEM</span> 
+                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item">
+                     <a href="#" itemprop="item" id="text-item1">
+                         <span itemprop="name">QUIENES SOMOS</span> 
                      </a> 
                  </li>
+                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item">
+                    <a href="#" itemprop="item" id="text-item2">
+                        <span itemprop="name">ACTIVIDADES</span> 
+                    </a> 
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item">
+                    <a href="#" itemprop="item" id="text-item3">
+                        <span itemprop="name">NOTICIAS</span> 
+                    </a> 
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item">
+                    <a href="http://www.google.com" itemprop="item" target="_blank" id="text-item4">
+                        <span itemprop="name" id="btn_donate">HACE UN DONATIVO AHORA</span> 
+                    </a> 
+                </li>
+                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                    <a href="#" itemprop="item" id="text-item5">
+                        <span itemprop="name" id="btn_contact">CONTACTANOS</span> 
+                    </a> 
+                </li>
              </ul>
-         </nav>
-    </section>    
+        </nav>
+    </section>  
     
     <!-- article -->
-    <article itemscope itemtype=http://schema.org/Article>
+    <!-- <article itemscope itemtype=http://schema.org/Article>
         <h1 itemprop=headline></h1>
         
        <div rel=author itemprop=author itemscope itemtype=https://schema.org/Person>
@@ -159,10 +183,10 @@
        <div itemprop="text">
            <p>SOME TEXT</p>
        </div>       
-    </article>    
+    </article> -->
 
     <!-- product -->
-    <section itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+    <!-- <section itemprop="offers" itemscope itemtype="https://schema.org/Offer">
         <h3 itemprop="name">PRODUCT NAME</h3>
         <p itemprop="description">PRODUT DESCRIPTION</p>
 		<p><a href="#" itemprop="url">PRODUCT URL</a></p>
@@ -172,10 +196,10 @@
         </figure>
         <p>Price: <span itemprop="price">99.99</span><span itemprop="priceCurrency">CURRENCY</span></p>
         <p>category: <span itemprop="category">CATEGORY</span></p>
-    </section>
+    </section> -->
 
     <!-- comments -->
-    <section class="comments">
+    <!-- <section class="comments">
 
         <div itemprop="comment" itemscope itemtype="https://schema.org/UserComments">
             <p>comment time: <time itemprop="commentTime">TIME</time></p>
@@ -189,16 +213,16 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     
     <!-- copyright -->
-    <div class="copyright">
+    <!-- <div class="copyright">
         <span itemprop="copyrightYear">YEAR</span>
         <div itemprop="copyrightHolder" itemscope itemtype="https://schema.org/Organization">
             <p itemprop="legalName">COPYRIGHT HOLDER</p>
         </div>
-   </div>    
+   </div> -->  
 
 </body>    
 </html>
