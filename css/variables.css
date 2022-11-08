@@ -1,0 +1,12 @@
+:root {
+    --red-primary-solid: rgba(238, 0, 47, 1);
+    --red-primary-transparent: rgba(238, 0, 47, 0.8);
+    --lightblue-primary-solid: rgba(89, 155, 237, 1);
+    --black-primary-solid: rgba(0, 0, 0, 1);
+    --white-primary-solid: rgba(255, 255, 255, 1);
+    --grey-primary-solid: rgb(243, 243, 243);
+    --grey-secondary-solid: rgb(60, 60, 60);
+
+    --height: 70px;
+    --font-size-navbar: 12px;
+}
