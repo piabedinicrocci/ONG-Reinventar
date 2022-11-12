@@ -33,6 +33,7 @@
 
 .items_right {
     width: 64%;
+    justify-content: flex-end;
 }
 
 ul {
