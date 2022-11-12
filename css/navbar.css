@@ -1,9 +1,14 @@
+* { 
+    font-family: 'Montserrat'; 
+    margin: 0;
+}
+
 .navbar, .logo_left, #img_logo, .items_right, ul, #btn_donate {
     margin: 0;
     padding: 0;
 }
 
-.navbar, .logo_left, #img_logo, .item, #btn_contact {
+.navbar, .logo_left, #img_logo, .item, #btn_contact,.items_right {
     height: var(--height);
 }
 
@@ -15,17 +20,19 @@
 .navbar {
     background-color: var(--white-primary-solid);
     display: flex;
-    width: 1540px; /* Nico: Deberia ser 100% no estatico en px*/
-    font-size: var(--font-size-navbar); /* Nico: Revisar font-weight y font-family, la family se puede poner a toda la pagina */
-}
-
-.logo_left, #img_logo {
-    width: 230px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .logo_left {
-    margin-left: 50px;
-    margin-right: 250px;
+    width: 15%;
+    margin-left: 4%;
+    margin-right: 17%;
+}
+
+.items_right {
+    width: 64%;
 }
 
 ul {
@@ -34,7 +41,7 @@ ul {
 
 .item {
     list-style: none;
-    padding: 0px 35px;
+    padding: 0 38px;
     align-items: center;
 }
 
@@ -45,15 +52,18 @@ ul {
 #btn_contact {
     background-color: var(--red-primary-solid);
     color: var(--white-primary-solid);
-    padding: 26.5px;
+    padding: 0 26.5px;
     display: flex;
+    align-items: center;
 }
 
 #text-item1 , #text-item2, #text-item3, #text-item4, #text-item5 { 
-    /* Nico: Si a los 5 botones le asignamos las mismas propiedades, posiblemente deberia estar en una clase y no por ID */
     text-decoration: none;
     color: black;
-    /* Nico: Poniendole un 'line-height: var(--font-size-navbar)' a los span dentro de los elementos anchor das la sensacion de botón y podes hacer click en todo el alto y no tener que hacer click si o si en el link */
+}
+
+a > span {
+    line-height: var(--height);
 }
 
 li:hover {
