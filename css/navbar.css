@@ -14,6 +14,7 @@
 
 .items_right, ul, .item {
     display: flex;
+    justify-content: flex-end;
     color: black;
 }
 
