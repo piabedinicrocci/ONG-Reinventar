@@ -8,6 +8,7 @@
     width: 100%;
     background-image: url(../img/Welcome.png);
     background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 299px;
 }
 
@@ -16,7 +17,7 @@
 }
 
 .rectangle {
-    background-color: rgba(238, 0, 47, 0.8);
+    background-color: var(--red-primary-transparent);
     border-radius: 0px 44px;
     width: 650px;
     height: 180px;
