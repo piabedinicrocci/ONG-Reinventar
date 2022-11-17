@@ -1,7 +1,12 @@
 .US{
     /* width: 70vw; */
-    width: 1050px;
+    max-width: 1050px;
     margin: 120px auto;
+}
+.US > h2{
+    font-family: 'Work Sans';
+    font-size: 26px;
+    font-weight: 600;
 }
 .us_underline{
     padding-bottom: 10px;
@@ -17,6 +22,10 @@
     line-height: 32px;
 }
 .us_img{
-    margin-left: 79px;
     border-radius: 0px 55px;
+}
+
+.us_text{
+    max-width: 60%;
+    font-family: 'Montserrat';
 }
