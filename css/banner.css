@@ -8,25 +8,25 @@
     justify-content: center;
 }
 
-.bannerImage{
+.banner_image{
     position: absolute;
     left: 25%;
 }
 
-.bannerTitle{
+.banner_title{
     line-height: 40px;
     text-align: center;
     color: var(--white-primary-solid);
     align-self: center;
 }
 
-.bannerTitleLight{
+.banner_title_light{
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 0px;
 }
 
-.bannerTitleStrong{
+.banner_title_strong{
     font-weight: 700;
     font-size: 33px;
     margin-top: 0px;
@@ -36,18 +36,22 @@
     .banner{
         height: 400px;
     }
-    .bannerImage{
+
+    .banner_image{
         left: 5%;
         width: 90%;
     }
-    .bannerTitle{
+
+    .banner_title{
         line-height: 30px;
         padding: 0px 25px;
     }
-    .bannerTitleLight{
+
+    .banner_title_light{
         font-size: 15px;
     }
-    .bannerTitleStrong{
+    
+    .banner_title_strong{
         font-size: 25px;
     }
 }

@@ -1,21 +1,20 @@
-* { 
-    font-family: 'Montserrat'; 
-    margin: 0;
-}
-
 .navbar, .logo_left, #img_logo, .items_right, ul, #btn_donate {
     margin: 0;
     padding: 0;
 }
 
-.navbar, .logo_left, #img_logo, .item, #btn_contact,.items_right {
+.navbar, .item, #btn_contact,.items_right {
     height: var(--height);
+}
+
+#img_logo{
+    height: 50px;
 }
 
 .items_right, ul, .item {
     display: flex;
     justify-content: flex-end;
-    color: black;
+    color: var(--black-primary-solid);
 }
 
 .navbar {
@@ -28,12 +27,8 @@
 
 .logo_left {
     width: 15%;
-    margin-left: 4%;
-    margin-right: 17%;
-}
-
-.items_right {
-    width: 64%;
+    height: 50px;
+    margin: auto auto auto 5%;
 }
 
 ul {
@@ -47,7 +42,7 @@ ul {
 }
 
 #btn_donate {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--black-primary-solid);
 }
 
 #btn_contact {
@@ -60,7 +55,7 @@ ul {
 
 #text-item1 , #text-item2, #text-item3, #text-item4, #text-item5 { 
     text-decoration: none;
-    color: black;
+    color: var(--black-primary-solid);
 }
 
 a > span {
