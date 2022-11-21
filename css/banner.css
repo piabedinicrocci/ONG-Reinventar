@@ -11,6 +11,7 @@
 .banner_image{
     position: absolute;
     left: 25%;
+    display: flex;
 }
 
 .banner_title{
