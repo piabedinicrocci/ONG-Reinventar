@@ -41,7 +41,7 @@
     <!-- MONTSERRAT FONT FAMILY -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Red+Hat+Display&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
 	
     <link rel="stylesheet" href="css/variables.css">
@@ -50,6 +50,7 @@
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/footer.css">
     
 </head>
 <body>
@@ -88,7 +89,6 @@
                 </li>
              </ul>
         </nav>
-
     </section>  
 
     <article itemscope itemtype="http://schema.org/Article" class="welcome" >
@@ -131,10 +131,67 @@
         <h2 class="banner_title banner_title_strong" itemprop=headline>ACTITUD ACTIVA FRENTE A LOS VALORES</h2>
     </section>
     <!-- schema.org https://schema.org/ -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer_first_section">
+            <div class="footer_first_section_right">
+                <img class="footer_reinventar_logo" src="img/logo_footer.png" itemscope itemtype=https://schema.org/ImageObject alt="Intelifaz Logo"></img> 
+                <ul class="footer_list">
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="footer_list_item">
+                        <a href="#" itemprop="item" class="footer_list_anchor">
+                            <span itemprop="name" class="footer_list_text">QUIENES SOMOS</span> 
+                        </a> 
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="footer_list_item">
+                    <a href="#" itemprop="item" class="footer_list_anchor">
+                        <span itemprop="name" class="footer_list_text">ACTIVIDADES</span> 
+                    </a> 
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="footer_list_item">
+                        <a href="#" itemprop="item" class="footer_list_anchor">
+                            <span itemprop="name" class="footer_list_text">NOTICIAS</span> 
+                        </a> 
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="footer_list_item">
+                        <a href="http://www.google.com" itemprop="item" target="_blank" class="footer_list_anchor">
+                            <span itemprop="name" class="footer_list_text">HACÉ UN DONATIVO AHORA</span> 
+                        </a> 
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_social_media">
+                <p>Seguinos</p>
+                <a class="footer_social_media_anchor" href="https://www.linkedin.com/in/reinventar-tandil-ong-23644899/" target="_blank"><img class="footer_social_media_logo" src="img/linkedin_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Linkedin"></img></a>
+                <a class="footer_social_media_anchor" href="http://www.google.com" target="_blank"><img class="footer_social_media_logo" src="img/twitter_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Twitter"></img></a>
+                <a class="footer_social_media_anchor" href="http://www.google.com" target="_blank"><img class="footer_social_media_logo" src="img/facebook_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Facebook"></img></a>
+                <a class="footer_social_media_anchor" href="http://www.google.com" target="_blank"><img class="footer_social_media_logo" src="img/youtube_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Youtube"></img></a>
+            </div>
+        </div>
+        <p class="footer_separator"></p>
+        <div class="footer_second_section">
+            <p class="footer_copyright">©2008-23 Reinventar. Todos los derechos reservados.</p>
+            <div class="footer_intelifaz">
+                <p class="footer_credits">El diseño de este sitio fue posible gracias a</p>
+                <a class="footer_intelifaz_anchor" href="http://www.intelifaz.com" target="_blank"><img class="footer_intelifaz_logo" src="img/intelifaz.png" itemscope itemtype=https://schema.org/ImageObject alt="Intelifaz Logo"></img></a>
+            </div>
+            
+            
+        </div>
+    </footer>
     
     <!-- page owner -->	
     <!-- <section itemprop="reviewedBy" itemscope itemtype="https://schema.org/Organization"> -->
 	
+        <!-- copyright -->
+    <!-- <div class="copyright">
+        <span itemprop="copyrightYear">YEAR</span>
+        <div itemprop="copyrightHolder" itemscope itemtype="https://schema.org/Organization">
+            <p itemprop="legalName">COPYRIGHT HOLDER</p>
+        </div>
+   </div> -->  
+
+
 	<!-- Organization/Person name and logo -->	
         <!-- <div>
             <div itemprop="brand" itemscope itemtype="https://schema.org/Organization">
@@ -178,13 +235,7 @@
     </section> -->
 
     
-    <!-- copyright -->
-    <!-- <div class="copyright">
-        <span itemprop="copyrightYear">YEAR</span>
-        <div itemprop="copyrightHolder" itemscope itemtype="https://schema.org/Organization">
-            <p itemprop="legalName">COPYRIGHT HOLDER</p>
-        </div>
-   </div> -->  
+    
 
 </body>    
 </html>
