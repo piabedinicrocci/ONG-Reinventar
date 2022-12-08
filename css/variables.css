@@ -9,6 +9,8 @@
     --white-primary-transparent: rgba(255, 255, 255, 0.5);
     --grey-primary-solid: rgb(243, 243, 243);
     --grey-secondary-solid: rgb(60, 60, 60);
+    --grey-tertiary-solid: rgba(161, 161, 161, 1);
+
     --height: 70px;
     --font-size-navbar: 12px;
 }
