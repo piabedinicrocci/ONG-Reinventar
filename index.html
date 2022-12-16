@@ -59,7 +59,7 @@
     <!-- NAVIGATION -->
     <section class="navbar">
         <div class="logo_left">
-            <img src="img/Logo.png" alt="logo" id="img_logo"/>
+            <img src="img/logo.png" alt="logo" id="img_logo"/>
         </div>
         <nav itemprop="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList" class="items_right">
              <ul>
@@ -90,15 +90,16 @@
                 </li>
              </ul>
         </nav>
-    </section>  
+    </section>
 
+    <!-- WELCOME -->
     <article itemscope itemtype="http://schema.org/Article" class="welcome" >
-        <section rel="author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="rectangle">
+        <section rel="author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="welcome_rectangle">
             <h1 itemprop="headline">PROMOVEMOS EL MEJORAMIENTO</h1>
             <p>INTELECTUAL, CULTURAL, DEPORTIVO Y EDUCATIVO DE AQUELLOS GRUPOS MÁS VULNERABLES.</p>
         </section>
         <a href="http://www.google.com" itemprop="item" target="_blank">
-            <button id="btn_want_donate">QUIERO DONAR</button>
+            <button class="welcome_button">QUIERO DONAR</button>
         </a>       
     </article>
 
@@ -110,13 +111,13 @@
                 Tenemos como objetivo promover el desarrollo y mejoramiento intelectual, cultural, deportivo y educativo, de aquellos grupos más vulnerables, postando a la inclusión social. <br> 
                 Para ello brindamos un espacio para niños y jóvenes, en el cual, principalmente a través del deporte ( o de la practica del Hockey) con valores , pretendemos potenciar sus capacidades positivas, fomentar hábitos de vida saludable y favorecer blablablá....( esto tiene que responder a los objetivos de arriba). Construyendo así un lugar de referencia significativo creado por sus propios protagonistas.
             </div>
-            <div class="us_img">
-                <img src="img/niña_sonriendo.png" alt="foto de una niña sonriendo">
+            <div class="us_img_container">
+                <img class="us_img" src="img/niña_sonriendo.png" alt="foto de una niña sonriendo">
             </div>
         </article>
         <article class="us_flex_article">
-            <div class="us_img">
-                <img src="img/niñas_jugando_hockey.png" alt="foto de niñas jugando al hockey">
+            <div class="us_img_container">
+                <img class="us_img" src="img/niñas_jugando_hockey.png" alt="foto de niñas jugando al hockey">
             </div>
             <div class="us_text">Un párrafo más. Quizás/idea hablando del futuro o de lo que reinventar significa para el barrio. O más específicamente de la participación de los niños que van y de que los voluntarios que hacen a la organización junto con los padres y los que asisten. <br>
                 <br> 
@@ -132,7 +133,7 @@
         <h2 class="banner_title banner_title_strong" itemprop=headline>ACTITUD ACTIVA FRENTE A LOS VALORES</h2>
     </section>
 
-    <!-- CONTACT -->
+    <!-- CONTACT  -->
     <section class="contact" itemscope itemtype=http://schema.org/Article>
         <h2 class="contact_title" itemprop=headline><span class="contact_title_underline">Con</span>tactanos</h2>
         <div class="contact_container">
@@ -153,8 +154,8 @@
                 <h3 class="contact_location_title">Donde estamos</h3>
                 <p class="contact_location_text"> Nuestro lugar de Referencia se ubica en Velez Sarfield 491 de la ciudad de Tandil.</p>
                 <div class="contact_whatsapp_container">
-                    <a class="contact_whatsapp_anchor" href="https://wa.me/5492494999999?text=Hola! me comunicaba para" target="_blank"><img class="contact_whatsapp_logo" src="img/whatsapp_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Whatsapp Logo"></img></a> <!-- TODO CELULAR -->
-                    <a class="contact_whatsapp_anchor" href="https://wa.me/5492494999999?text=Hola! me comunicaba para" target="_blank">+54 9 2494 999999</a> <!-- TODO CELULAR -->
+                    <a class="contact_whatsapp_anchor" href="https://wa.me/5492494999999?text=Hola! me comunicaba para" target="_blank"><img class="contact_whatsapp_logo" src="img/whatsapp_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Whatsapp Logo"></img></a>
+                    <a class="contact_whatsapp_anchor" href="https://wa.me/5492494999999?text=Hola! me comunicaba para" target="_blank">+54 9 2494 999999</a>
                 </div>
             </div>
         </div>
@@ -203,10 +204,8 @@
                 <p class="footer_credits">El diseño de este sitio fue posible gracias a</p>
                 <a class="footer_intelifaz_anchor" href="http://www.intelifaz.com" target="_blank"><img class="footer_intelifaz_logo" src="img/intelifaz.png" itemscope itemtype=https://schema.org/ImageObject alt="Intelifaz Logo"></img></a>
             </div>
-            
-            
         </div>
-    </footer>
+    </footer> 
     
     <!-- page owner -->	
     <!-- <section itemprop="reviewedBy" itemscope itemtype="https://schema.org/Organization"> -->
@@ -262,8 +261,6 @@
 
     </section> -->
 
-    
-    
     <script src="./js/contact.js"></script>
 </body>    
 </html>

@@ -25,7 +25,7 @@
     line-height: 32px;
 }
 
-.us_img{
+.us_img_container{
     border-radius: 0px 55px;
 }
 
@@ -35,4 +35,32 @@
     font-size: 16px;
     line-height: 32px;
     color: var(--black-secondary-solid);;
+}
+
+@media only screen and (max-width: 600px) {
+    .us{
+        margin: 50px auto;
+    }
+    .us > h2{
+        margin-left: 25px;
+    }
+    .us_flex_article{
+        flex-direction: column;
+    }
+    .us_flex_article:last-of-type {
+        flex-direction: column-reverse;
+    }
+    .us_text{
+        max-width: 75%;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .us_img_container{
+        width: 80%;
+    }
+    .us_img{
+        width: 100%;
+        object-fit: contain;
+        margin-top: 25px;
+    }
 }

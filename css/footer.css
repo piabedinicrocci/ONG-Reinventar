@@ -108,3 +108,32 @@
     height: 20px;
     width: 75px;
 }
+
+@media only screen and (max-width: 600px) {
+    .footer{
+        height: 100%;
+        width: 80%;
+        padding: 5% 10%;
+    }
+    .footer_first_section{
+        flex-direction: column;
+    }
+    .footer_first_section_right{
+        flex-direction: column;
+    }
+    .footer_reinventar_logo{
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+    .footer_list{
+        display: inline-block;
+        border: 0px;    
+        padding: 10px 0px;
+    }
+    .footer_second_section{
+        flex-direction: column-reverse;
+    }
+    .footer_copyright{
+        text-align: center;
+    }
+}
