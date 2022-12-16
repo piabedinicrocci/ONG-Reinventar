@@ -52,45 +52,24 @@
     <link rel="stylesheet" href="css/welcome.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/footer.css">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/c5d8d8beeb.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
-    
     <!-- NAVIGATION -->
-    <section class="navbar">
-        <div class="logo_left">
-            <img src="img/logo.png" alt="logo" id="img_logo"/>
-        </div>
-        <nav itemprop="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList" class="items_right">
-             <ul>
-                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item">
-                     <a href="#" itemprop="item" id="text-item1">
-                         <span itemprop="name">QUIENES SOMOS</span> 
-                     </a> 
-                 </li>
-                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item">
-                    <a href="#" itemprop="item" id="text-item2">
-                        <span itemprop="name">ACTIVIDADES</span> 
-                    </a> 
-                </li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item">
-                    <a href="#" itemprop="item" id="text-item3">
-                        <span itemprop="name">NOTICIAS</span> 
-                    </a> 
-                </li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="item">
-                    <a href="http://www.google.com" itemprop="item" target="_blank" id="text-item4">
-                        <span itemprop="name" id="btn_donate">HACÉ UN DONATIVO AHORA</span> 
-                    </a> 
-                </li>
-                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" >
-                    <a href="#" itemprop="item" id="text-item5">
-                        <span itemprop="name" id="btn_contact">CONTACTANOS</span> 
-                    </a> 
-                </li>
-             </ul>
-        </nav>
-    </section>
+    <nav class="navbar" itemprop="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <ul class="navbar_menu">
+          <li class="navbar_logo" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><img src="img/logo.png" alt="logo" id="navbar_logo"/></a></li>
+          <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item">QUIENES SOMOS</a></li>
+          <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item">ACTIVIDADES</a></li>
+          <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item">NOTICIAS</a></li>
+          <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="navbar_donate_button" href="#" itemprop="item">HACÉ UN DONATIVO AHORA</a></li>
+          <li class="navbar_item navbar_button" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="navbar_contact_button" href="#" itemprop="item">CONTACTANOS</a></li>
+          <li class="navbar_toggle" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><i class="fas fa-bars"></i></a></li>
+        </ul>
+      </nav>
 
     <!-- WELCOME -->
     <article itemscope itemtype="http://schema.org/Article" class="welcome" >
@@ -261,6 +240,7 @@
 
     </section> -->
 
+    <script src="./js/navbar.js"></script>
     <script src="./js/contact.js"></script>
 </body>    
 </html>

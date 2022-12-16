@@ -1,10 +1,9 @@
 .footer{
-    height: 130px;
     display: flex;
     flex-direction: column;
     background-color: var(--black-tertiary-solid);
     color: var(--white-primary-solid);
-    padding: 50px 100px;
+    padding: 30px 100px;
     font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -27,6 +26,7 @@
 .footer_list{
     padding-left: 25px;
     border-left: 1px solid white;
+    display: flex;
 }
 
 .footer_list_item{
