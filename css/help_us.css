@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -9,7 +7,9 @@
 }
 
 .help_us_img_container {
-    width: 50%
+    width: 50%;
+    margin: 0;
+    padding: 0;
 }
 
 figure > img {
