@@ -22,8 +22,8 @@ figure > img {
     background-color: var(--red-primary-solid);
     color: var(--white-primary-solid);
     padding-left: 150px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .help_us_title{
@@ -50,4 +50,5 @@ figure > img {
 #donate_btn {
     margin-top: 0;
     margin-left: 0;
+    margin-bottom: 20px;
 }
