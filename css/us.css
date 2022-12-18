@@ -1,6 +1,7 @@
 .us{
     max-width: 1050px;
     margin: 100px auto;
+    font-family: 'Work Sans';
 }
 
 .us > h2{
@@ -13,6 +14,7 @@
 .us_underline{
     padding-bottom: 10px;
     border-bottom: 4px solid var(--red-primary-solid);
+    font-family: 'Work Sans';
 }
 
 .us_flex_article{
