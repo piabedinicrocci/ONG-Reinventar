@@ -1,0 +1,99 @@
+.activities, .activities_cards, .activities_card_section_up, .activities_card_section_down, .activity_left_down, .activity_right_down, .activity_left_up, .activity_right_up{
+    display: flex;
+}
+
+.activities{
+    background: var(--lightblue-primary-solid);
+    width: 100%;
+    height: 1400px;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.activities_title{
+    height: 6%;
+    padding-top: 7.15%;
+    padding-left: 12.5%;
+    color: var(--white-primary-solid);
+}
+
+.activities_underline{
+    padding-bottom: 10px;
+    border-bottom: 4px solid;
+}
+
+.activities_cards, .activities_card_section_up, .activities_card_section_down, .activity_left_down, .activity_right_down, .activity_left_up, .activity_right_up{
+    justify-content: center;
+}
+
+.activities_cards{
+    height: 68%;
+    flex-direction: column;
+}
+
+.activities_card_section_up, .activities_card_section_down{
+    height: 50%;
+    flex-direction: row;
+}
+
+.activities_card_section_up{
+    margin-bottom: 1.5%;
+}
+
+.activities_card_section_down{
+    margin-top: 1.5%;
+}
+
+.activity_left_down, .activity_right_down, .activity_left_up, .activity_right_up{
+    height: 100%;
+    width: 36%;
+    border: 2px solid #FFFFFF;
+    flex-direction: column;
+}
+
+.activity_right_down, .activity_right_up{
+    margin-left: 1.4%;
+}
+
+.activity_left_down, .activity_left_up{
+    margin-right: 1.4%;
+}
+
+.activity_right_down, .activity_left_up{
+    border-radius: 55px 0px 55.0421px;
+}
+
+.activity_left_down, .activity_right_up{
+    border-radius: 0px 55px;
+}
+
+.activity_card_title, .activity_card_image, .activity_card_text{
+    text-align: center;
+    color: var(--white-primary-solid);
+}
+
+.activity_card_image{
+    background: var(--lightblue-secondary-solid);
+    width: 29%;
+    height: 30.6%;
+    border-radius: 50%;
+    margin-left: 36%;
+    margin-bottom: 8%;
+    margin-top: 5%;
+}
+
+.activity_image{
+    padding-top: 19%;
+    width: 58.62%;
+    height: 58.62%;
+}
+
+.activity_card_text{
+    margin-left: 11%;
+    margin-right: 11%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+}
