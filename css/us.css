@@ -1,12 +1,16 @@
 .us{
-    max-width: 1050px;
-    margin: 100px auto;    
-}
+    margin: 100px 200px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
 
 .us > h2{
     font-size: 26px;
     font-weight: 600;
     line-height: 30.5px;
+    max-width: 1050px;
+    width: 100%;
 }
 
 .us_underline{
@@ -16,6 +20,7 @@
 
 .us_flex_article{
     margin: 40px 0;
+    max-width: 1050px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -29,7 +34,7 @@
 }
 
 .us_text{
-    max-width: 60%;
+    max-width: 55%;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;

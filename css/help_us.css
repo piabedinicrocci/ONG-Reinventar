@@ -18,16 +18,16 @@ figure > img {
 }
 
 .help_us_right_container {
-    width: 50%;
+    width: 40%;
     background-color: var(--red-primary-solid);
     color: var(--white-primary-solid);
-    padding-left: 150px;
+    padding-left: 10%;
     padding-top: 10px;
     padding-bottom: 20px;
 }
 
 .help_us_title{
-    font-weight: lighter;
+    font-weight: 300;
     font-size: 50px;
     margin-bottom: 40px;
 }
@@ -43,12 +43,40 @@ figure > img {
     line-height: 28px;
 }
 
+.help_us_text1 {
+    font-weight: 400;
+}
+
 .help_us_text2 {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 #donate_btn {
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .help_us_flex_container{
+        flex-direction: column;
+    }
+    .help_us_img_container{
+        width: 100%;
+    }
+    .help_us_img{
+        display: block;
+    }
+    .help_us_right_container{
+        width: 100%;
+        padding: 0px;
+    }
+    .help_us_title, .help_us_text1, .help_us_text2{
+        padding: 0px 25px;
+        width:75%;
+    }
+    .help_us_donate_button{
+        padding: 0px 25px;
+    }
+
 }

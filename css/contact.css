@@ -139,7 +139,7 @@ textarea:focus::placeholder{
 .contact_section_right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 45%;
 }
 

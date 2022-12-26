@@ -10,8 +10,8 @@
 
 .banner_image{
     position: absolute;
-    left: 25%;
     display: flex;
+    margin-left: 200px;
 }
 
 .banner_title{
@@ -41,6 +41,7 @@
     .banner_image{
         left: 5%;
         width: 90%;
+        margin-left: 0px;
     }
 
     .banner_title{
