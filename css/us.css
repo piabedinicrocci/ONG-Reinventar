@@ -41,6 +41,10 @@
     color: var(--black-secondary-solid);;
 }
 
+.us_text_highlight{
+    font-weight: 700;
+}
+
 @media only screen and (max-width: 600px) {
     .us{
         margin: 50px auto;

@@ -70,7 +70,7 @@
     border-radius: 0px 55px;
 }
 
-.activity_card_title, .activity_card_image, .activity_card_text{
+.activity_card_title, .activity_card_image{
     text-align: center;
     color: var(--white-primary-solid);
     font-size: 22px;
@@ -92,13 +92,23 @@
     height: 85px;
 }
 
-.activity_card_text{
+.activity_card_text_container{
     margin: 30px 60px;
+    min-height: 152px;
+    display: flex;
+    align-items: center;
+}
+
+.activity_card_text{
+    justify-self: center;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
+    text-align: center;
+    color: var(--white-primary-solid);
+    height: 75px;
 }
 
 @media only screen and (max-width: 600px) {

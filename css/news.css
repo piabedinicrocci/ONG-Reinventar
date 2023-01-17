@@ -158,6 +158,7 @@
     background-color: var(--lightblue-primary-solid);
     border-radius: 0 0 58px 0;
     color: var(--white-primary-solid);
+    min-height: 250px;
 }
 
 .sub_main_news_title{
