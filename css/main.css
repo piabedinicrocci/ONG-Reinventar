@@ -1,3 +1,13 @@
+* {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: content-box;
+}
+
+img {
+    vertical-align: initial;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;

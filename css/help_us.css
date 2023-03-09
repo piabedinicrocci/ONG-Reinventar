@@ -4,6 +4,7 @@
 
 .help_us_flex_container {
     display: flex;
+    max-height: 550px;
 }
 
 .help_us_img_container {
@@ -60,6 +61,7 @@ figure > img {
 @media only screen and (max-width: 600px) {
     .help_us_flex_container{
         flex-direction: column;
+        max-height: 800px;
     }
     .help_us_img_container{
         width: 100%;
@@ -73,7 +75,7 @@ figure > img {
     }
     .help_us_title, .help_us_text1, .help_us_text2{
         padding: 0px 25px;
-        width:75%;
+        width:85%;
     }
     .help_us_donate_button{
         padding: 0px 25px;

@@ -50,6 +50,11 @@
     letter-spacing: 0.08em;
     text-align: left;
     color: var(--white-primary-solid);
+    cursor: pointer;
+}
+
+.footer_list_anchor:hover{
+    text-decoration: none;
 }
 
 .footer_social_media{
@@ -64,6 +69,12 @@
 .footer_social_media_logo{
     width: 27px;
     height: 27px;
+}
+
+.footer_social_media_logo_wa{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 .footer_separator{
@@ -102,6 +113,7 @@
     height: 20px;
     align-self: center;
     padding-left: 5px;
+    margin-bottom: 5px;
 }
 
 .footer_intelifaz_logo{

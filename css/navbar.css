@@ -3,6 +3,8 @@
     font-size: 12px;
     font-weight: 600;
     height: 70px;
+    border: 0px;
+    margin-bottom: 0px;
 }
 
 a {
@@ -25,6 +27,7 @@ a {
 .navbar_item:not(.navbar_button) a:hover,
 .navbar_item a:hover::after {
     color: var(--black-primary-solid);
+    text-decoration: none;
 }
 
 .navbar_menu {
@@ -60,7 +63,6 @@ a {
 }
 
 .navbar_item.navbar_button {
-
     background-color: var(--red-primary-solid);
 }
 
@@ -94,6 +96,7 @@ a {
 
 .navbar_donate_button {
     border-bottom: 2px solid var(--black-primary-solid);
+    cursor: pointer;
 }
 
 .navbar_contact_button {

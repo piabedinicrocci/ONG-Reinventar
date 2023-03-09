@@ -99,6 +99,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.center_content:hover{
+    text-decoration: none;
+}
+
 .news_arrow_leer_nota{
     height: 32px;
     width: 32px;

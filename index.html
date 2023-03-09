@@ -44,8 +44,10 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Nunito+Sans:wght@700&family=Red+Hat+Display&display=swap'); </style>
 	
     <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/us.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -55,6 +57,7 @@
     <link rel="stylesheet" href="css/help_us.css">
     <link rel="stylesheet" href="css/activities.css">
     <link rel="stylesheet" href="css/news.css">
+    
 
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/c5d8d8beeb.js" crossorigin="anonymous"></script>
@@ -68,7 +71,7 @@
           <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#us" itemprop="item">QUIENES SOMOS</a></li>
           <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#activities" itemprop="item">ACTIVIDADES</a></li>
           <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#news" itemprop="item">NOTICIAS</a></li>
-          <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="navbar_donate_button" href="#" itemprop="item">HACÉ UN DONATIVO AHORA</a></li>
+          <li class="navbar_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="navbar_donate_button" data-toggle="modal" data-target="#exampleModal" itemprop="item">HACÉ UN DONATIVO AHORA</a></li>
           <li class="navbar_item navbar_button" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="navbar_contact_button" href="#contactUS" itemprop="item">CONTACTANOS</a></li>
           <li class="navbar_toggle" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><i class="fas fa-bars"></i></a></li>
         </ul>
@@ -77,10 +80,10 @@
     <!-- WELCOME -->
     <article itemscope itemtype="http://schema.org/Article" class="welcome">
         <section rel="author" itemprop="author" itemscope itemtype="https://schema.org/Person" class="welcome_rectangle">
-            <h1 itemprop="headline">EDUCAMOS PROMOVIENDO LA SUPERACIÓN</h1>
-            <p>Intelectual, cultural y deportiva con <span class="welcome_highlight">VALORES</span></p>
+            <h1 itemprop="headline">EDUCAMOS A TRAVÉS DEL DEPORTE CON VALORES</h1>
+            <p>FORMANDO LIDERES POSITIVOS</p>
         </section>
-        <a href="http://www.google.com" itemprop="item" target="_blank">
+        <a data-toggle="modal" data-target="#exampleModal" itemprop="item">
             <button class="welcome_button">QUIERO DONAR</button>
         </a>       
     </article>
@@ -89,7 +92,7 @@
     <section class="us" id="us">
         <h2><span class="us_underline">Quie</span>nes somos</h2>
         <article class="us_flex_article">
-            <div class="us_text">Somos una Asociación Civil sin fines de lucro, no gubernamental que nació en el año <span class="us_text_highlight">2008</span>, de la mano de Catalina Granel, en la ciudad de Tandil en el barrio Las Tunitas. <br>
+            <div class="us_text">Somos una Asociación Civil sin fines de lucro, no gubernamental que nació en el año <span class="us_text_highlight">2005</span>, de la mano de Catalina Granel, en la ciudad de Tandil en el barrio Las Tunitas. <br>
                 Tenemos como propósito promover el desarrollo y superación intelectual, cultural, deportivo y educativo, orientados hacia la inclusión social.<br> 
                 Para ello ofrecemos un espacio para niños y jóvenes, a través de la práctica del Hockey y del deporte con valores. Potenciamos sus capacidades positivas, fomentamos hábitos de vida saludable y trabajamos sobre la apropiación del compromiso, la responsabilidad y el respeto como valores para la vida.
             </div>
@@ -111,8 +114,8 @@
     <!-- BANNER -->
     <section class="banner" itemscope itemtype=http://schema.org/Article>
         <span class="banner_image" itemscope itemtype=https://schema.org/ImageObject><img src="img/banner.svg" alt="Quote Image"></img></span>
-        <h2 class="banner_title banner_title_light" itemprop=headline>EL DEPORTE COMO RECURSO PARA APROPIARSE DE UN ESTILO DE VIDA.</h2>
-        <h2 class="banner_title banner_title_strong" itemprop=headline>PROACTIVIDAD FRENTE A LOS VALORES</h2>
+        <h2 class="banner_title banner_title_light" itemprop=headline>EL DEPORTE COMO RECURSO PARA APROPIARSE DE UN ESTILO DE VIDA</h2>
+        <h2 class="banner_title banner_title_strong" itemprop=headline>PROMOVIENDO LA SUPERACIÓN PERSONAL Y COMUNITARIA</h2>
     </section>
 
     <!-- ACTIVITIES -->
@@ -126,16 +129,16 @@
                     <div class="activity_card_text_container"><p class="activity_card_text">Práctica deportiva mixta por grupos de edad, respetando los horarios escolares.</p></div>
                 </div>
                 <div class="activity_right_up">
-                    <h2 class="activity_card_title">TALLER DE VALORES</h2>
-                    <div class="activity_card_image"><img class="activity_image" src="img\valores.png" itemscope itemtype=https://schema.org/ImageObject alt="palo de hockey"></img></div>
-                    <div class="activity_card_text_container"><p class="activity_card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat distinctio molestiae consequatur consequuntur dolorum suscipit.</p></div>
+                    <h2 class="activity_card_title">ACOMPAÑAMIENTO EDUCATIVO</h2>
+                    <div class="activity_card_image"><img class="activity_image" src="img\open-book.png" itemscope itemtype=https://schema.org/ImageObject alt="palo de hockey"></img></div>
+                    <div class="activity_card_text_container"><p class="activity_card_text">Espacios para estimular la lectura, acompañar la trayectoria escolar y el compromiso con el estudio.</p></div>
                 </div>
             </div>
             <div class="activities_card_section_down">
                 <div class="activity_left_down">
-                    <h2 class="activity_card_title">APOYO ESCOLAR Y <br>BIBLIOTECA</h2>
-                    <div class="activity_card_image"><img class="activity_image" src="img\open-book.png" itemscope itemtype=https://schema.org/ImageObject alt="palo de hockey"></img></div>
-                    <div class="activity_card_text_container"><p class="activity_card_text">Espacios para estimular la lectura, acompañar la trayectoria escolar y el compromiso con el estudio.</p></div>
+                    <h2 class="activity_card_title">TALLER DE DESARROLLO <br>HUMANO</h2>
+                    <div class="activity_card_image"><img class="activity_image" src="img\valores.png" itemscope itemtype=https://schema.org/ImageObject alt="palo de hockey"></img></div>
+                    <div class="activity_card_text_container"><p class="activity_card_text">Desarrollo de valores como el respeto, el compromiso y la responsabilidad, a través del abordaje de problemáticas sociales, acompañando este proceso con ternura y firmeza.</p></div>
                 </div>
                 <div class="activity_right_down">
                     <h2 class="activity_card_title">ACTIVIDADES RECREATIVAS Y <br>VIAJES</h2>
@@ -235,14 +238,14 @@
             <img class="help_us_img" src="img/corazon.png" alt="foto de unas manos sosteniendo un corazon">
         </figure>
         <article class="help_us_right_container">
-            <h2 class="help_us_title"><span class="help_us_underline">Ayuda</span>nos</h2>
+            <h2 class="help_us_title"><span class="help_us_underline">SUMA</span>TE</h2>
             <div class="help_us_text1">
                 Con tu donación podemos sostener a los niños y adolescentes que participan en Reinventar, y ofrecerles oportunidades de superación.
             </div>
             <div class="help_us_text2">
                 ¡GRACIAS A APORTES COMO EL TUYO PODEMOS MEJORAR LA REALIDAD DE MUCHOS NIÑOS!
             </div>
-            <a class="help_us_donate_button" href="http://www.google.com" itemprop="item" target="_blank">
+            <a class="help_us_donate_button" data-toggle="modal" data-target="#exampleModal" itemprop="item">
                 <button class="welcome_button" id="donate_btn">QUIERO DONAR</button>
             </a>
         </article>
@@ -269,8 +272,8 @@
                 <h3 class="contact_location_title">Donde estamos</h3>
                 <p class="contact_location_text"> Nuestra sede se ubica en Velez Sarfield 491 de la ciudad de Tandil.</p>
                 <div class="contact_whatsapp_container">
-                    <a class="contact_whatsapp_anchor" href="https://wa.me/5492494999999?text=Hola! me comunicaba para" target="_blank"><img class="contact_whatsapp_logo" src="img/whatsapp_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Whatsapp Logo"></img></a>
-                    <a class="contact_whatsapp_anchor" href="https://wa.me/5492494999999?text=Hola! me comunicaba para" target="_blank">+54 9 2494 999999</a>
+                    <a class="contact_whatsapp_anchor" href="https://wa.me/5492494489835?text=Hola! me comunicaba para" target="_blank"><img class="contact_whatsapp_logo" src="img/whatsapp_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Whatsapp Logo"></img></a>
+                    <a class="contact_whatsapp_anchor" href="https://wa.me/5492494489835?text=Hola! me comunicaba para" target="_blank">+54 9 2494 489835</a>
                 </div>
             </div>
         </div>
@@ -298,7 +301,7 @@
                         </a> 
                     </li>
                     <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="footer_list_item">
-                        <a href="http://www.google.com" itemprop="item" target="_blank" class="footer_list_anchor">
+                        <a data-toggle="modal" data-target="#exampleModal" itemprop="item" class="footer_list_anchor">
                             <span itemprop="name" class="footer_list_text">HACÉ UN DONATIVO AHORA</span> 
                         </a> 
                     </li>
@@ -306,15 +309,14 @@
             </div>
             <div class="footer_social_media">
                 <p>Seguinos</p>
-                <a class="footer_social_media_anchor" href="https://www.linkedin.com/in/reinventar-tandil-ong-23644899/" target="_blank"><img class="footer_social_media_logo" src="img/linkedin_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Linkedin"></img></a>
-                <a class="footer_social_media_anchor" href="http://www.google.com" target="_blank"><img class="footer_social_media_logo" src="img/twitter_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Twitter"></img></a>
-                <a class="footer_social_media_anchor" href="http://www.google.com" target="_blank"><img class="footer_social_media_logo" src="img/facebook_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Facebook"></img></a>
-                <a class="footer_social_media_anchor" href="http://www.google.com" target="_blank"><img class="footer_social_media_logo" src="img/youtube_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Youtube"></img></a>
+                <a class="footer_social_media_anchor" href="https://www.facebook.com/reinventar.tandil" target="_blank"><img class="footer_social_media_logo" src="img/facebook_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Facebook"></img></a>
+                <a class="footer_social_media_anchor" href="https://www.instagram.com/reinventartandil/" target="_blank"><img class="footer_social_media_logo" src="img/instagram_logo.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Instagram"></img></a>
+                <a class="footer_social_media_anchor" href="https://wa.me/5492494489835?text=Hola! me comunicaba para" target="_blank"><img class="footer_social_media_logo_wa" src="img/whatsapp_logo2.png" itemscope itemtype=https://schema.org/ImageObject alt="Reinventar Whatsapp"></img></a>
             </div>
         </div>
         <p class="footer_separator"></p>
         <div class="footer_second_section">
-            <p class="footer_copyright">©2008-23 Reinventar. Todos los derechos reservados.</p>
+            <p class="footer_copyright">©2005-23 Reinventar. Todos los derechos reservados.</p>
             <div class="footer_intelifaz">
                 <p class="footer_credits">El diseño de este sitio fue posible gracias a</p>
                 <a class="footer_intelifaz_anchor" href="http://www.intelifaz.com" target="_blank"><img class="footer_intelifaz_logo" src="img/intelifaz.png" itemscope itemtype=https://schema.org/ImageObject alt="Intelifaz Logo"></img></a>
@@ -322,7 +324,29 @@
         </div>
     </footer> 
 
+    <!-- MODAL -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">HACÉ UN DONATIVO AHORA</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					    <span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+				    <p class="giftModalText">SI DESEAS HACER UN DONATIVO PODES CONTACTARTE CON CATALINA GRANEL AL +542494489835 (LLAMADA O WHATSAPP) O ENVIAR UN EMAIL A INFO@REINVENTARTANDIL.COM</p>
+				    <p class="giftModalText">¡GRACIAS!</p>
+					<p class="giftModalText">EQUIPO REINVENTAR TANDIL</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
     <script src="./js/navbar.js"></script>
     <script src="./js/contact.js"></script>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>    
 </html>

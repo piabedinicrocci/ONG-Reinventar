@@ -11,9 +11,10 @@
     color: var(--white-primary-solid);
     background-color: var(--red-primary-transparent);
     border-radius: 0px 44px;
-    width: 700px;
+    width: 800px;
     height: 180px;
     margin-left: 164px;
+    margin-right: 20px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -22,15 +23,15 @@
 }
 
 .welcome_rectangle > h1 {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 0px;
 } 
 
 .welcome_rectangle > p {
-    margin-left: 70px;
+    margin-left: 40px;
     margin-right: 210px;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 600;
     line-height: 26px;
     letter-spacing: 4%;
@@ -49,12 +50,6 @@
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 3px;
-}
-
-.welcome_highlight{
-    font-style: italic;
-    font-weight: 700;
-    font-size: 16px;
 }
 
 @media only screen and (max-width: 600px) {
