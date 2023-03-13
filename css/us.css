@@ -33,16 +33,18 @@
     border-radius: 0px 55px;
 }
 
+.us_img {
+    width: 333px;
+    height: 372px;
+    border-radius: 0px 15%;
+}
+
 .us_text{
     max-width: 55%;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
     color: var(--black-secondary-solid);;
-}
-
-.us_text_highlight{
-    font-weight: 700;
 }
 
 @media only screen and (max-width: 600px) {
