@@ -25,9 +25,13 @@ a {
 }
 
 .navbar_item:not(.navbar_button) a:hover,
-.navbar_item a:hover::after {
+.navbar_item a:hover::after{
     color: var(--black-primary-solid);
     text-decoration: none;
+}
+
+.navbar_contact_button:hover{
+    color: var(--white-primary-solid);
 }
 
 .navbar_menu {
