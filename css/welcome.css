@@ -1,9 +1,10 @@
 .welcome {
     height: 390px;
     width: 100%;
-    background-image: url(../img/Welcome.jpeg);
+    background-image: url(../img/Welcome2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     padding-top: 299px;
 }
 
@@ -55,7 +56,7 @@
 @media only screen and (max-width: 600px) {
     .welcome {
         height: 300px;
-        background-image: url(../img/Welcome.jpeg);
+        background-image: url(../img/Welcome2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
